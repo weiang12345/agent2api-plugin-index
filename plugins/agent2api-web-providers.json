@@ -1,0 +1,21 @@
+{
+  "_note": "模板：网关切到本索引仓库、且下面引用的 Release 资产已经发出来后，再把它挂进 index.json 的 plugins 数组。",
+  "id": "agent2api-web-providers",
+  "name": "网页提供商",
+  "version": "3.5.0-fork.1",
+  "protocol": 1,
+  "description": "为 Agent2API 扩展网页提供商，支持网页登录账号的模型调用；具体续期、目录、积分与签到能力以各提供商声明为准。",
+  "homepage": "https://github.com/weiang12345/Agent2WebProviders",
+  "license": "AGPL-3.0",
+  "official": true,
+  "release": {
+    "repo": "weiang12345/agent2api-providers-releases",
+    "tag": "web-v{version}",
+    "asset": "{id}-{version}-{target}.zip"
+  },
+  "platforms": [
+    "x86_64-pc-windows-msvc",
+    "x86_64-unknown-linux-gnu",
+    "armv7-unknown-linux-gnu"
+  ]
+}
