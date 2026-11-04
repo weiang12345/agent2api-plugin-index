@@ -1,5 +1,18 @@
 {
   "schema": 1,
   "updated": "2026-11-04",
-  "plugins": []
+  "plugins": [
+    {
+      "id": "agent2api-providers",
+      "name": "提供商增强",
+      "description": "为 Agent2API 扩展多家 AI 提供商，提供模型调用、账号登录与导入、凭证续期、模型目录、余额查询和签到等能力。具体功能以各提供商的支持情况为准。",
+      "source": {
+        "type": "github-release",
+        "repo": "weiang12345/agent2api-providers-releases"
+      },
+      "manifest": "plugins/agent2api-providers.json",
+      "official": true,
+      "tags": ["fork", "providers"]
+    }
+  ]
 }
