@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-06",
   "plugins": [
     {
       "id": "agent2api-providers",
